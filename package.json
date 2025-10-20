@@ -1,0 +1,16 @@
+{
+  "name": "ci-cd-demo",
+  "version": "1.0.0",
+  "description": "��#\u0000 \u0000c\u0000i\u0000-\u0000c\u0000d\u0000-\u0000d\u0000e\u0000m\u0000o\u0000\r\u0000 \u0000",
+  "main": "index.js",
+  "scripts": {
+  "test": "mocha",
+  "build": "mkdir -p dist && echo \"console.log('build complete')\" > dist/app.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "mocha": "^11.7.4"
+  }
+}
